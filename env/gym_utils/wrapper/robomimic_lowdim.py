@@ -124,6 +124,10 @@ class RobomimicLowdimWrapper(gym.Env):
         if self.normalize:
             action = self.unnormalize_action(action)
         raw_obs, reward, done, info = self.env.step(action)
+
+        # Update the live viewer only when on-screen rendering is enabled.
+        if getattr(getattr(self.env, "env", None), "has_renderer", False):
+            self.env.render(mode="human")
         obs = self.get_observation(raw_obs)
 
         # render if specified

@@ -145,3 +145,17 @@ dmypy.json
 cfg/robomimic/*.sh
 
 *.out
+
+# Local experiment files
+/data/
+/log/
+/wandb/
+/demo_videos/
+*.pt
+*.pth
+*.ckpt
+*.before_live_render
+__pycache__/
+*.py[cod]
+.env
+.env.*
