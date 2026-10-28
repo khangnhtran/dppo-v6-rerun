@@ -1,0 +1,11 @@
+[2026-10-28 14:48:57,605][robosuite_logs][WARNING] - No private macro file found!
+[2026-10-28 14:48:57,605][robosuite_logs][WARNING] - It is recommended to use a private macro file
+[2026-10-28 14:48:57,605][robosuite_logs][WARNING] - To setup, run: python /home/lab506/Desktop/Khangtn/robosuite/robosuite/scripts/setup_macros.py
+[2026-10-28 14:48:57,645][OpenGL.acceleratesupport][INFO] - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[2026-10-28 14:49:00,200][root][INFO] - Loaded RL-trained policy from /home/lab506/Desktop/Khangtn/dppo-v06-rerun/log/robomimic-finetune/can_ft_diffusion_mlp_ta4_td20_tdf10/2026-10-28_12-23-29_42/checkpoint/state_150.pt
+[2026-10-28 14:49:00,201][root][INFO] - Number of network parameters: 575564
+[2026-10-28 14:49:00,249][root][INFO] - Cloned model for fine-tuning
+[2026-10-28 14:49:00,250][root][INFO] - Turned off gradients of the pretrained network
+[2026-10-28 14:49:00,250][root][INFO] - Number of finetuned parameters: 575564
+[2026-10-28 14:49:00,254][root][INFO] - Loaded critic from /home/lab506/Desktop/Khangtn/dppo-v06-rerun/log/robomimic-finetune/can_ft_diffusion_mlp_ta4_td20_tdf10/2026-10-28_12-23-29_42/checkpoint/state_150.pt
+[2026-10-28 14:49:29,467][agent.eval.eval_diffusion_agent][INFO] - eval: num episode  200 | success rate   0.9900 | avg episode reward 211.0950 | avg best reward   0.9900

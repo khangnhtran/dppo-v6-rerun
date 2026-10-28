@@ -1,0 +1,7 @@
+[2026-10-28 12:06:14,458][robosuite_logs][WARNING] - No private macro file found!
+[2026-10-28 12:06:14,458][robosuite_logs][WARNING] - It is recommended to use a private macro file
+[2026-10-28 12:06:14,458][robosuite_logs][WARNING] - To setup, run: python /home/lab506/Desktop/Khangtn/robosuite/robosuite/scripts/setup_macros.py
+[2026-10-28 12:06:14,499][OpenGL.acceleratesupport][INFO] - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[2026-10-28 12:06:15,543][root][INFO] - Loaded SL-trained policy from /home/lab506/Desktop/Khangtn/dppo-v06-rerun/log/robomimic-pretrain/can_pre_diffusion_mlp_ta4_td20/2026-10-28_09-52-07_42/checkpoint/state_8000.pt
+[2026-10-28 12:06:15,544][root][INFO] - Number of network parameters: 575564
+[2026-10-28 12:07:34,385][agent.eval.eval_diffusion_agent][INFO] - eval: num episode   20 | success rate   0.9000 | avg episode reward 111.1000 | avg best reward   0.9000

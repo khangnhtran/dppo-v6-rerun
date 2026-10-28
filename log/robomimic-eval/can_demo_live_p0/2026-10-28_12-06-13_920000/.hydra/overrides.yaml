@@ -1,0 +1,7 @@
+- base_policy_path=/home/lab506/Desktop/Khangtn/dppo-v06-rerun/log/robomimic-pretrain/can_pre_diffusion_mlp_ta4_td20/2026-10-28_09-52-07_42/checkpoint/state_8000.pt
+- seed=920000
+- env.n_envs=1
+- n_steps=1500
+- +env.render=true
+- env.save_video=false
+- name=can_demo_live_p0

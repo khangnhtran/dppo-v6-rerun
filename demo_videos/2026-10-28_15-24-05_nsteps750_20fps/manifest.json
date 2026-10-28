@@ -1,0 +1,76 @@
+[
+  {
+    "policy": "pretrain",
+    "video": "/home/lab506/Desktop/Khangtn/dppo-v06-rerun/demo_videos/2026-10-28_15-24-05_nsteps750_20fps/pretrain_nsteps750_20fps.mp4",
+    "checkpoint": "/home/lab506/Desktop/Khangtn/dppo-v06-rerun/log/robomimic-pretrain/can_pre_diffusion_mlp_ta4_td20/2026-10-28_09-52-07_42/checkpoint/state_8000.pt",
+    "source_config": "/home/lab506/Desktop/Khangtn/dppo-v06-rerun/demo_videos/2026-10-28_15-11-42_nsteps750/pretrain_config.yaml",
+    "seed": 920000,
+    "n_steps": 750,
+    "act_steps": 4,
+    "n_envs": 1,
+    "frames": 3000,
+    "fps": 20,
+    "duration_seconds": 150.0,
+    "capture": "one original rendered frame per control action",
+    "inference_device": "cpu",
+    "renderer": "llvmpipe",
+    "camera": "agentview",
+    "resolution": [
+      512,
+      512
+    ],
+    "num_episodes": 10,
+    "episode_rewards": [
+      0.0,
+      164.0,
+      159.0,
+      151.0,
+      196.0,
+      165.0,
+      132.0,
+      134.0,
+      164.0,
+      98.0
+    ],
+    "success_rate": 0.9,
+    "same_episode_rewards_as_previous_demo": true,
+    "elapsed_seconds": 94.86438488960266
+  },
+  {
+    "policy": "ppo",
+    "video": "/home/lab506/Desktop/Khangtn/dppo-v06-rerun/demo_videos/2026-10-28_15-24-05_nsteps750_20fps/ppo_nsteps750_20fps.mp4",
+    "checkpoint": "/home/lab506/Desktop/Khangtn/dppo-v06-rerun/log/robomimic-finetune/can_ft_diffusion_mlp_ta4_td20_tdf10/2026-10-28_12-23-29_42/checkpoint/state_150.pt",
+    "source_config": "/home/lab506/Desktop/Khangtn/dppo-v06-rerun/demo_videos/2026-10-28_15-11-42_nsteps750/ppo_config.yaml",
+    "seed": 920000,
+    "n_steps": 750,
+    "act_steps": 4,
+    "n_envs": 1,
+    "frames": 3000,
+    "fps": 20,
+    "duration_seconds": 150.0,
+    "capture": "one original rendered frame per control action",
+    "inference_device": "cpu",
+    "renderer": "llvmpipe",
+    "camera": "agentview",
+    "resolution": [
+      512,
+      512
+    ],
+    "num_episodes": 10,
+    "episode_rewards": [
+      201.0,
+      222.0,
+      206.0,
+      211.0,
+      137.0,
+      232.0,
+      215.0,
+      209.0,
+      227.0,
+      208.0
+    ],
+    "success_rate": 1.0,
+    "same_episode_rewards_as_previous_demo": true,
+    "elapsed_seconds": 98.54094624519348
+  }
+]
